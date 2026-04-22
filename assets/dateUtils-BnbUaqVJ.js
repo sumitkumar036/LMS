@@ -1,0 +1,1 @@
+const r=e=>{if(!e)return"N/A";const a=e.replace(/\s+at\s+/i," "),t=new Date(a);return isNaN(t.getTime())?"N/A":t.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"})};export{r as f};
